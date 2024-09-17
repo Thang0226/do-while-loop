@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Enter a number</title>
+  </head>
+
+  <body>
+    <script>
+      let num = null;
+      do {
+        num = +prompt("Enter a number between 1 and 10:");
+      } while (num < 1 || num > 10);
+      alert(`You have entered ${num}`);
+    </script>
+  </body>
+</html>
